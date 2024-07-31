@@ -8,6 +8,10 @@ public class OOPS {
         System.out.println(p1.tip);
         p1.color ="Yellow";
         System.out.println(p1.color);
+        BankAccount myAcc = new BankAccount();
+        myAcc.userName ="Kushal Vardhan";
+        myAcc.setPassword("abscd");
+        
     }
 }
 
@@ -25,7 +29,7 @@ class Pen {
     }
 }
 
-class Studnt{
+class Student{
     String name;
     int age;
     float percentage;
@@ -34,4 +38,12 @@ class Studnt{
     void calcPercentage (int phy,int chem,int math){
         percentage =(phy+chem+math)/3;
     }
+}
+
+class BankAccount {
+   public String userName;
+   private String password;
+   public void setPassword(String pwd){
+       password = pwd;
+   }
 }
