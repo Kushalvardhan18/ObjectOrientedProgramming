@@ -10,8 +10,8 @@ public class OOPS {
         System.out.println(p1.color);
         BankAccount myAcc = new BankAccount();
         myAcc.userName ="Kushal Vardhan";
-        myAcc.setPassword("abscd");
-        
+//        myAcc.setPassword("abscd");
+
     }
 }
 
@@ -43,7 +43,7 @@ class Student{
 class BankAccount {
    public String userName;
    private String password;
-   public void setPassword(String pwd){
-       password = pwd;
-   }
+//   public void setPassword(String pwd){
+//       password = pwd;
+//   }
 }
