@@ -1,7 +1,7 @@
 public class OOPS {
 
     public static void main(String[] args) {
-        Pen p1 = new Pen();  // Constructor -- created a pen object
+        Pens p1 = new Pens();  // Constructor -- created a Pens object
         p1.setColor("Blue");
         System.out.println(p1.color);
         p1.setTip(5);
@@ -15,7 +15,7 @@ public class OOPS {
     }
 }
 
-class Pen {
+class Pens {
     // pro and func
     String color;
     int tip;
