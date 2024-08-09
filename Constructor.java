@@ -9,6 +9,9 @@ public class Constructor {
        */
         Students s1 = new Students("Kushal");
         Students s2 = new Students();
+        Students s3 = new Students();
+        s3.name ="Aman";
+        s3.roll =1;
         System.out.println(s1.name);
     }
 }
