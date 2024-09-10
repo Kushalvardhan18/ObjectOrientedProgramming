@@ -20,7 +20,7 @@ class Animal{
         System.out.println("breathes");
     }
 }
-
+//Hybrid Inheritance
 //Hierachical Inheritance
 // Multi-Level Inheritance
 class Mammal extends Animal{
